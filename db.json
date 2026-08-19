@@ -1,0 +1,112 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Andre da Silva",
+            "cpf": "123.456.789-00",
+            "email": "andre@treinarecife.com.br",
+            "senha": "abc123",
+            "dataNascimento": "02/08/2002",
+            "status": "ATIVO"
+        },
+        {
+            "id": 2,
+            "nome": "Bianca de Souza",
+            "cpf": "123.456.789-01",
+            "email": "bianca@treinarecife.com.br",
+            "senha": "abc123",
+            "dataNascimento": "02/08/1952",
+            "status": "INATIVO"
+        },
+        {
+            "id": 3,
+            "nome": "Carlos Amorim",
+            "cpf": "123.456.789-02",
+            "email": "carlos@treinarecife.com.br",
+            "senha": "abc123",
+            "dataNascimento": "31/12/1994",
+            "status": "ATIVO"
+        },
+        {
+            "id": 4,
+            "nome": "Daniel Henrique",
+            "cpf": "123.456.789-03",
+            "email": "daniel@treinarecife.com.br",
+            "senha": "abc123",
+            "dataNascimento": "10/10/1987",
+            "status": "ATIVO"
+        },
+        {
+            "id": 5,
+            "nome": "Eduardo Juca",
+            "cpf": "123.456.789-04",
+            "email": "eduardo@treinarecife.com.br",
+            "senha": "abc123",
+            "dataNascimento": "04/06/2005",
+            "status": "INATIVO"
+        }
+    ],
+    "projetos": [
+        {
+            "id": 1,
+            "nome": "Projeto #01",
+            "descricao": "Exemplo de projeto #01",
+            "responsavel": {
+                "id": 1,
+                "nome": "Andre da Silva"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Projeto #02",
+            "descricao": "Exemplo de projeto #02",
+            "responsavel": {
+                "id": 2,
+                "nome": "Bianca de Souza"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Projeto #03",
+            "descricao": "Exemplo de projeto #03",
+            "responsavel": {
+                "id": 3,
+                "nome": "Carlos Amorim"
+            }
+        }
+    ],
+    "tarefas": [
+        {
+            "id": 1,
+            "titulo": "Estudar Java",
+            "descricao": "Integrar API com React",
+            "dataCriacao": "18/08/2026",
+            "prioridade": "ALTA",
+            "status": "FAZENDO",
+            "projeto": {
+                "id": 1,
+                "nome": "Projeto #01"
+            },
+            "usuario": {
+                "id": 3,
+                "nome": "Carlos Amorim"
+            }
+        },
+        {
+            "id": 2,
+            "titulo": "Estudar Flask",
+            "descricao": "Integrar API com React",
+            "dataCriacao": "18/08/2026",
+            "prioridade": "ALTA",
+            "status": "FAZENDO",
+            "projeto": {
+                "id": 1,
+                "nome": "Projeto #02"
+            },
+            "usuario": {
+                "id": 2,
+                "nome": "Bianca de Souza"
+            }
+        }
+    ]
+}
